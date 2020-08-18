@@ -105,11 +105,22 @@ Sample JSON:
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+Homepage:
+https://wireframe.cc/pro/pp/1ab1e1929366519
 
-### MVP/PostMVP
+Display result:
+https://wireframe.cc/pro/pp/1ab1e1929366519#um2zuxmp
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+Movile Version:
+
+HP:
+https://wireframe.cc/pro/pp/1ab1e1929366519#lmxhydf7
+
+DR:
+https://wireframe.cc/pro/pp/1ab1e1929366519#ty0fj7xi
+
+
+### MVP/PostMVP 
 
 #### MVP
 
@@ -125,18 +136,15 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|August 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|August 17| Project Approval | Incomplete
-|August 18| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|August 19| Initial Clickable Model  | Incomplete
-|August 20| MVP | Incomplete
-|August 21| Presentations | Incomplete
+
+|August 17| Prompt / Wireframes / Priority Matrix / Timeframes | 90% Complete
+|August 18| Project Approval & Core Application Structure (HTML, CSS, etc.) | 0% complete
+|August 19| Initial Clickable Model  | 0% complete
+|August 20| MVP | 0% complete
+|August 21| Presentations | 0% complete
 
 ## Priority Matrix
 
@@ -144,15 +152,14 @@ Include a full list of features that have been prioritized based on the `Time an
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| skeleton creation | H | 5hrs| 5hrs | 5hrs |
+| functions | H | 6hrs| 6hrs | 6hrs |
+| Styles Look&feel | H | 6hrs| 6hrs | 6hrs |
+| test & resolve issues | H | 3.5hrs| 3.5hrs | 3.5hrs |
+| Total | H | 20.5hrs| 20.5hrs | 20.5hrs |
 
 ## Code Snippet
 
