@@ -138,7 +138,7 @@ https://wireframe.cc/pro/pp/1ab1e1929366519#ty0fj7xi
 
 ## Priority Matrix
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/1kofrVt"><a href="//imgur.com/1kofrVt"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+https://imgur.com/a/1kofrVt
 
 
 ## Code Snippet
