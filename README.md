@@ -101,25 +101,22 @@ https://wireframe.cc/pro/pp/1ab1e1929366519#ty0fj7xi
 
 #### MVP
 
-- Show list of options to user 
-- Save the selections as results
-- Use them to find the results in the API data
-- Render and allow user to navigate results 
+- user send response by input ingredient 
+- Render available recipes from API list to browser
 
 #### PostMVP  
 
-- User creates and saves personal list
-- User share recipes, their food results & data into social media plataforms of their selection
+- provide youtube links
 
 ## Project Schedule
 
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|August 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|August 17| Project Approval | Incomplete
-|August 18| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|August 19| Initial Clickable Model  | Incomplete
+|August 17| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|August 18| Project Approval | Complete
+|August 19| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|August 20| Initial Clickable Model  | Incomplete
 |August 20| MVP | Incomplete
 |August 21| Presentations | Incomplete
 
@@ -129,11 +126,12 @@ https://wireframe.cc/pro/pp/1ab1e1929366519#ty0fj7xi
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| skeleton creation | H | 5hrs| 5hrs | 5hrs |
-| functions | H | 6hrs| 6hrs | 6hrs |
-| Styles Look&feel | H | 6hrs| 6hrs | 6hrs |
-| test & resolve issues | H | 3.5hrs| 3.5hrs | 3.5hrs |
-| Total | H | 20.5hrs| 20.5hrs | 20.5hrs |
+| skeleton HTML | H | 3hrs| 0hrs | 3.5hrs |
+| API request | H | 3hrs| 0hrs | 0hrs |
+| Render data to DOM | H | 3hrs| 0hrs | 0hrs |
+| Grab input form | H | 3hrs| 0hrs | 0hrs |
+| Render Content | H | 3hrs| 0hrs | 0hrs |
+| Total | H | 15hrs| 20.5hrs | 20.5hrs |
 
 
 
