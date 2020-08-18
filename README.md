@@ -141,9 +141,13 @@ https://wireframe.cc/pro/pp/1ab1e1929366519#ty0fj7xi
 |---|---| ---|
 
 |August 17| Prompt / Wireframes / Priority Matrix / Timeframes | 90% Complete
+
 |August 18| Project Approval & Core Application Structure (HTML, CSS, etc.) | 0% complete
+
 |August 19| Initial Clickable Model  | 0% complete
+
 |August 20| MVP | 0% complete
+
 |August 21| Presentations | 0% complete
 
 ## Priority Matrix
