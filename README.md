@@ -2,37 +2,104 @@
 
 ## Project Name
 
-The name of your project.
+F##d Craver
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+
+"F##d Craver" is an application whose interest is to help people to reach their future gastronomic experience, based on their preferences or cravings at the time they navigate in the application, providing complete recipes, so they can create them step by step
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+Main web page of the api selector for this project:
+https://www.themealdb.com/api.php
+
+Api's :
+Search meal by name
+https://www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata
+List all meals by first letter
+https://www.themealdb.com/api/json/v1/1/search.php?f=a
+Lookup full meal details by id
+https://www.themealdb.com/api/json/v1/1/lookup.php?i=52772
+Lookup a single random meal
+https://www.themealdb.com/api/json/v1/1/random.php
+Lookup a selection of 10 random meals (only available to $2+ Patreon supporters)
+https://www.themealdb.com/api/json/v1/1/randomselection.php
+List all meal categories
+https://www.themealdb.com/api/json/v1/1/categories.php
+Latest Meals (only available to $2+ Patreon supporters)
+https://www.themealdb.com/api/json/v1/1/latest.php
+List all Categories, Area, Ingredients
+https://www.themealdb.com/api/json/v1/1/list.php?c=list
+https://www.themealdb.com/api/json/v1/1/list.php?a=list
+https://www.themealdb.com/api/json/v1/1/list.php?i=list
+Filter by main ingredient
+https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast
+Filter by multi-ingredient (only available to $2+ Patreon supporters)
+https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast,garlic,salt
+Filter by Category
+https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood
+Filter by Area
+https://www.themealdb.com/api/json/v1/1/filter.php?a=Canadian
 
 Sample JSON:
 ```json
 {
-    "Search": [
+    "meals": [
         {
-            "Title": "Crash",
-            "Year": "2004",
-            "imdbID": "tt0375679",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BOTk1OTA1MjIyNV5BMl5BanBnXkFtZTcwODQxMTkyMQ@@._V1_SX300.jpg"
-        },
-        {
-            "Title": "Crash",
-            "Year": "1996",
-            "imdbID": "tt0115964",
-            "Type": "movie",
-            "Poster": "https://m.media-amazon.com/images/M/MV5BZjlhMDBlNDQtMjZkZi00NzJmLWI4MTgtZDdkMzZmZDcyZGNmXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
-        },
-    ],
-    "totalResults": "354",
-    "Response": "True"
+            "idMeal": "52953",
+            "strMeal": "Shrimp Chow Fun",
+            "strDrinkAlternate": null,
+            "strCategory": "Seafood",
+            "strArea": "Chinese",
+            "strInstructions": "STEP 1 - SOAK THE RICE NOODLES\r\nSoak the rice noodles overnight untill they are soft\r\nSTEP 2 - BOIL THE RICE NOODLES\r\nBoil the noodles for 10-15 minutes and then rinse with cold water to stop the cooking process of the noodles.\r\nSTEP 3 -MARINATING THE SHRIMP\r\nIn a bowl add the shrimp, egg, 1 pinch of white pepper, 1 Teaspoon of sesame seed oil, 1 Tablespoon corn starch and 1 tablespoon of oil\r\nMix together well\r\nSTEP 4 - STIR FRY\r\nIn a wok add 2 Tablespoons of oil, shrimp and stir fry them until it is golden brown\r\nSet the shrimp aside\r\nAdd 1 Tablespoon of oil to the work and then add minced garlic, ginger and all of the vegetables.\r\nAdd the noodles to the wok\r\nNext add sherry cooking wine, oyster sauce, sugar, vinegar, sesame seed oil, 1 pinch white pepper, and soy sauce\r\nAdd back in the shrimp\r\nTo thicken the sauce, whisk together 1 Tablespoon of corn starch and 2 Tablespoon of water in a bowl and slowly add to your stir-fry until it's the right thickness.",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/1529445434.jpg",
+            "strTags": null,
+            "strYoutube": "https://www.youtube.com/watch?v=wzaTcpoFEaY",
+            "strIngredient1": "Rice Stick Noodles",
+            "strIngredient2": "Prawns",
+            "strIngredient3": "Egg",
+            "strIngredient4": "Pepper",
+            "strIngredient5": "Sesame Seed Oil",
+            "strIngredient6": "Cornstarch",
+            "strIngredient7": "Oil",
+            "strIngredient8": "Minced Garlic",
+            "strIngredient9": "Ginger",
+            "strIngredient10": "Onion",
+            "strIngredient11": "Bean Sprouts",
+            "strIngredient12": "Spring Onions",
+            "strIngredient13": "Cooking wine",
+            "strIngredient14": "Oyster Sauce",
+            "strIngredient15": "Sugar",
+            "strIngredient16": "Vinegar",
+            "strIngredient17": "Soy Sauce",
+            "strIngredient18": "",
+            "strIngredient19": "",
+            "strIngredient20": "",
+            "strMeasure1": "1/2 bag",
+            "strMeasure2": "8 oz ",
+            "strMeasure3": "1/2 ",
+            "strMeasure4": "pinch",
+            "strMeasure5": "2 tsp",
+            "strMeasure6": "2 tbs",
+            "strMeasure7": "4 tbs",
+            "strMeasure8": "1 tsp ",
+            "strMeasure9": "1 tsp ",
+            "strMeasure10": "1/2 cup ",
+            "strMeasure11": "1 cup ",
+            "strMeasure12": "1/2 cup ",
+            "strMeasure13": "1 tbs",
+            "strMeasure14": "1 tbs",
+            "strMeasure15": "1/2 tbs",
+            "strMeasure16": "1/2 tbs",
+            "strMeasure17": "1 tbs",
+            "strMeasure18": "",
+            "strMeasure19": "",
+            "strMeasure20": "",
+            "strSource": "https://sueandgambo.com/pages/shrimp-chow-fun",
+            "dateModified": null
+        }
+    ]
 }
 ```
 
