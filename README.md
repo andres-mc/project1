@@ -138,7 +138,7 @@ https://wireframe.cc/pro/pp/1ab1e1929366519#ty0fj7xi
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/1kofrVt"><a href="//imgur.com/1kofrVt"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
 ## Code Snippet
