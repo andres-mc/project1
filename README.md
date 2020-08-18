@@ -150,9 +150,6 @@ https://wireframe.cc/pro/pp/1ab1e1929366519#ty0fj7xi
 
 |August 21| Presentations | 0% complete
 
-## Priority Matrix
-
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
 
 ## Timeframes
 
@@ -164,6 +161,14 @@ Include a full list of features that have been prioritized based on the `Time an
 | Styles Look&feel | H | 6hrs| 6hrs | 6hrs |
 | test & resolve issues | H | 3.5hrs| 3.5hrs | 3.5hrs |
 | Total | H | 20.5hrs| 20.5hrs | 20.5hrs |
+
+
+
+
+## Priority Matrix
+
+Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+
 
 ## Code Snippet
 
