@@ -2,12 +2,12 @@
 
 ## Project Name
 
-F##d Craver
+Meal Craver
 
 ## Project Description
 
 
-"F##d Craver" is an application whose interest is to help people to reach their future gastronomic experience, based on their preferences or cravings at the time they navigate in the application, providing complete recipes, so they can create them step by step
+"Meal Craver" is an application whose interest is to help people to reach their future gastronomic experience, based on their preferences or cravings at the time they navigate in the application, providing complete recipes, so they can create them step by step
 
 ## API and Data Sample
 
@@ -111,18 +111,17 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
-#### MVP 
-*These are examples only. Replace with your own MVP features.*
+#### MVP
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Show list of options to user 
+- Save the selections as results
+- Use them to find the results in the API data
+- Render and allow user to navigate results 
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- User creates and saves personal list
+- User share recipes, their food results & data into social media plataforms of their selection
 
 ## Project Schedule
 
