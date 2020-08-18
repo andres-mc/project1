@@ -140,15 +140,15 @@ https://wireframe.cc/pro/pp/1ab1e1929366519#ty0fj7xi
 |  Day | Deliverable | Status
 |---|---| ---|
 
-|August 17| Prompt / Wireframes / Priority Matrix / Timeframes | 90% Complete
+|August 17| Prompt / Wireframes / Priority Matrix / Timeframes | Complete |
 
-|August 18| Project Approval & Core Application Structure (HTML, CSS, etc.) | 0% complete
+|August 18| Project Approval & Core Application Structure (HTML, CSS, etc.) | Incomplete |
 
-|August 19| Initial Clickable Model  | 0% complete
+|August 19| Initial Clickable Model  | Incomplete |
 
-|August 20| MVP | 0% complete
+|August 20| MVP | Incomplete |
 
-|August 21| Presentations | 0% complete
+|August 21| Presentations | Incomplete |
 
 
 ## Timeframes
