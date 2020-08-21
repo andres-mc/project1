@@ -1,0 +1,148 @@
+body {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  /* font-family: 'Questrial', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#getRecipe {
+  border: none;
+  padding: 8px 26px;
+  text-align: center;
+  font-size: 14px;
+  background-color: blueviolet;
+  color: whitesmoke;
+
+}
+#userInput {
+  width: 140px; 
+  height: 26px;
+
+}
+
+span {
+  font-weight: bolder;
+}
+
+
+
+.gridContainer {
+  background-color: thistle;
+  display: grid;
+  grid-template: auto auto auto;
+  grid-gap: 10px;
+  padding: 40px;
+}
+.item1 {
+  grid-row: 1;
+  grid-column: 1;
+  
+}
+.item2 {
+  grid-row: 2;
+  grid-column: 1;
+  text-align: left;
+  
+}
+
+/* .item2med {
+grid-row: row 1px;
+grid-column: 1;
+
+
+} */
+
+.item3 {
+  grid-row: 1;
+  grid-column: 2;
+  text-align: left;
+  
+}
+
+.item4 {
+  grid-row: 3;
+  grid-column: 1;
+  text-align: left;
+  
+}
+
+.titleBar {
+  background-color: tomato;
+  height: 30px;
+  padding: 1em;
+  color: blanchedalmond;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;
+}
+
+p {
+  margin: 0;
+  text-indent: 1ch;
+  display: inline;
+  margin-bottom: 1em;
+}
+.recipeImg {
+  width:540px; 
+  height:560px; 
+}
+
+.imgIngWrapper {
+display: flex;
+justify-content: flex-start;
+flex-flow: column nowrap;
+}
+
+@media (max-width:640px) {
+p {
+  font-size: 1rem;
+}
+/* .recipeImg {
+  width:100%; 
+  height:100vh; 
+} */
+.gridContainer {
+  background-color: thistle;
+  display: inline-block;
+  grid-template: auto auto;
+  grid-gap: 10px;
+  padding: 40px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.item1 {
+  grid-row: 1;
+  grid-column: 1;
+  
+}
+.item2 {
+  grid-row: 1;
+  grid-column: 2;
+  text-align: left;
+  
+}
+.item3 {
+  grid-row: 1;
+  grid-column: 3;
+  text-align: left;
+  
+}
+
+.item4 {
+  grid-row: 1;
+  grid-column: 4;
+  text-align: left;
+  }
+  .titleBar {
+    background-color: tomato;
+    height: 30px;
+    width: 100%;
+    padding: 1em;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px 0px 0px 0px;
+  }
+}

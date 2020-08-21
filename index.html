@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meal Craver</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="https://media.glassdoor.com/sqll/715781/the-daily-meal-squarelogo-1448024203039.png">
+  </header>
+ 
+  <main id="MainC">
+    <h1>Welcome to Meal Craver</h1>
+    <h3>Tell me your today's meal craving</h3>
+    <form id="recipeForm">
+      <input 
+        type="text" 
+        name="userInput" 
+        placeholder="Recipe" 
+        id="userInput" 
+      />
+      <input 
+        type="submit" 
+        placeholder="Get Recipe" 
+        id="getRecipe" 
+      />
+    </form>
+    <section >
+      <h3>Try this out!!</h3> 
+      <h1 id="titleRp" class="titleBar">Recipes</h1> 
+      <article id="recipeAllInfo" class="gridContainer">
+        <img id="recipeImg" class="item1 recipeImg">
+        <p id="recipeIng" class="item3"></p>
+        <p id="recipeTxt" class="item2"></p>
+        <!-- <iframe id="recipeYoutb" class="item4"></iframe> -->
+      </article>
+    </section>
+  </main>
+  <footer></footer>
+
+</body>
+
+</html>
