@@ -23,27 +23,13 @@ function showRecipeData(data) {
     let recipeInfo = `
     <h1 id="titleRp" class="titleBar">${data[i].strMeal}</h1> 
     <div class="imgIngWrapper">
-      <img id="recipeImg" src="${data[i].strMealThumb}" alt="" style=" width:450px ; height=auto ">
-      <p class="imgIngWrapper"></p>
+      <img id="recipeImg" src="${data[i].strMealThumb}" alt="" style=" width=550px ; height=auto ">
+      <p class="imgIngWrapper"></br>${data[i].strMeasure1} of ${data[i].strIngredient1}</br>${data[i].strMeasure2} of ${data[i].strIngredient2}</p></br>${data[i].strMeasure3} of ${data[i].strIngredient3}</p></br>${data[i].strMeasure4} of ${data[i].strIngredient4}</p></br>${data[i].strMeasure5} of ${data[i].strIngredient5}</p></br>${data[i].strMeasure6} of ${data[i].strIngredient6}</p></br>${data[i].strMeasure7} of ${data[i].strIngredient8}</p></br>${data[i].strMeasure9} of ${data[i].strIngredient9}</p>
     </div>
     <p id="recipeTxt"><h2><b>Instructions</b></h2></br>${data[i].strInstructions}</p> `
  
     document.querySelector('#recipeAllInfo').insertAdjacentHTML('beforeend', recipeInfo)
   
-  let dest = document.querySelector('.imgIngWrapper')
-  
-  for (let i = 1; i <= 20; i++) {
-      let objectName = `strIngredient${i}`
-      let objectName2 = `strMeasure${i}`
-    
-      let createTag = document.createElement('p')
-      createTag.append(data[i][objectName2])
-      createTag.append(data[i][objectName])
-      dest.append(createTag)
-      
-      console.log(data[i][objectName])
-      return createTag
-    }
 }
  }   
 const submit = document.querySelector('#getRecipe')
@@ -63,22 +49,3 @@ function removeRecipe() {
   }
 }
  
-
-function replaceYoutube(data) {
-  const youtubeStr = "{data.strYoutube}"
-
-  const watchStr = "watch?v="
-  const youtubeLink = youtubeStr.replace(watchStr, 'embed/')
-  return youtubeLink
-
-}
-
-
-let utubeLink = replaceYoutube()
-
-// <iframe id="recipeYoutb" src="">${replaceYoutube(data[i].strYoutube)}</iframe>
-//create for loop [ count how many ing mesr ]
-  //create p tag string interpolation mesurements ingredients 
-  //append imwrapper class line 44 
-  // document.querySelector('#userInput').value
-  // console.log(inputValue)

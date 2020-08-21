@@ -2,7 +2,6 @@ body {
   max-width: 800px;
   margin: auto;
   text-align: center;
-  /* font-family: 'Questrial', sans-serif; */
   font-family: 'Roboto', sans-serif;
 
 }
@@ -47,12 +46,7 @@ span {
   
 }
 
-/* .item2med {
-grid-row: row 1px;
-grid-column: 1;
 
-
-} */
 
 .item3 {
   grid-row: 1;
@@ -92,17 +86,14 @@ p {
 .imgIngWrapper {
 display: flex;
 justify-content: flex-start;
-flex-flow: column nowrap;
+flex-flow: column wrap;
 }
 
 @media (max-width:640px) {
 p {
   font-size: 1rem;
 }
-/* .recipeImg {
-  width:100%; 
-  height:100vh; 
-} */
+
 .gridContainer {
   background-color: thistle;
   display: inline-block;
